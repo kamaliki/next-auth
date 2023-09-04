@@ -6,7 +6,7 @@ export default async function Analytics() {
     const session = await getServerSession(options)
 
     if(!session) {
-        return redirect('/api/auth/signin?callbackUrl=/server')
+        return redirect('/api/auth/signin?callbackUrl=/dashboard/analysis')
     }
    
 

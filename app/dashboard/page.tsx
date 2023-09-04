@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Dashboard() {
     return(
         <div>
@@ -5,6 +7,7 @@ export default function Dashboard() {
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
+            <Link href="/dashboard/analysis"> Analysis </Link>
         </div>
 
     )
